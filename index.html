@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html class="dark" lang="en"><head>
+<html class="dark" lang="en"><head><title>Ettore Mortara - IT Specialist</title>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
@@ -84,14 +84,23 @@
             color: #e5e2e1;
             font-family: 'Inter', sans-serif;
         }
+        .editorial-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+        }
     </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
 </head>
 <body class="bg-background text-on-background" data-mode="connect">
 <!-- TopAppBar -->
 <header class="fixed top-0 w-full z-50 bg-[#131313]/60 backdrop-blur-3xl flex justify-between items-center px-6 py-4">
 <div class="text-xl font-bold tracking-tighter text-[#9acbff] font-['Space_Grotesk']">
-        ETTORE MORTARA
-    </div>
+            ETTORE MORTARA
+        </div>
 <div class="flex items-center gap-2 text-[#9acbff] font-['Space_Grotesk'] tracking-wider uppercase text-sm">
 <span class="material-symbols-outlined text-base">terminal</span>
 <span class="hidden sm:inline">Porto_v4.0</span>
@@ -99,44 +108,26 @@
 </header>
 <main class="pt-24 pb-32 px-6 max-w-7xl mx-auto space-y-24">
 <!-- Hero Section -->
-<section class="grid grid-cols-1 md:grid-cols-2 md:gap-16 items-start gap-0" id="Intro">
+<section class="grid grid-cols-1 md:grid-cols-2 md:gap-16 items-center gap-4" id="Intro">
 <div class="md:hidden">
 <h1 class="font-headline text-5xl font-extrabold tracking-tighter leading-[0.9] text-primary break-words">
-                ETTORE MORTARA <br/> — <span class="text-secondary">IT SPECIALIST</span>
-</h1>
+                    ETTORE MORTARA <br/> — IT SPECIALIST
+                </h1>
 </div>
 <div class="relative group">
 <div class="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-lg"></div>
 <img alt="Professional close-up of a confident IT specialist" class="w-full aspect-[4/5] object-cover rounded-lg grayscale hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida/ADBb0uiEjLwj8sR2kFBy8vEj_0EylI_8lx3yfpt18BhuWfhGcK7xjidCPP_uBa8C0MM8fcAI7tUN-yIxyuof3AnrU1HJcsLnIsfKQnBIU7Ct-XZSrYGBZKHtcm5xGUxyIM3RnQWIbtPeiRHabI-dTskEZBRtmuZAzwYrIctwYwqzXT_lgorU9c1v2rO0kBQKRHstsShqe4Y2De4zkgxiMav1ZWA3zyiiyRVcFuMOFGlFHtC0Cwfanw4gLEpyvvVd_SDg_ih4Rxlxd2J1hw"/>
 <div class="absolute -right-2 -bottom-4 w-24 h-24 bg-secondary-container/20 blur-3xl rounded-full -z-10"></div>
 </div>
-<div class="pt-6 md:pt-0">
-<h1 class="hidden md:block font-headline text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter leading-[0.9] text-primary break-words mb-8">
-                ETTORE MORTARA <br/> — <span class="text-secondary">IT SPECIALIST</span>
-</h1>
+<div class="">
+<h1 class="hidden md:block font-headline text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter leading-[0.9] text-primary break-words">
+                    ETTORE MORTARA <br/> — IT SPECIALIST
+                </h1>
 <div class="space-y-6">
 <p class="font-body text-lg md:text-xl text-on-surface-variant leading-relaxed max-w-md">
-                    Architecting high-availability systems with architectural logic. Specialized in digital infrastructure transformation and operational precision.
-                </p>
+                        Architecting high-availability systems with architectural logic. Specialized in digital infrastructure transformation and operational precision.
+                    </p>
 <div class="flex gap-4 items-center">
-<button class="bg-secondary-container text-on-secondary-container font-headline font-bold py-3 px-6 rounded-sm flex items-center gap-2 hover:opacity-90 transition-all duration-200">
-<span class="material-symbols-outlined">download</span>
-                        Download CV
-                    </button>
-</div>
-<!-- Languages Section -->
-<div class="pt-8 border-t border-outline-variant/20">
-<h2 class="font-headline text-xs tracking-[0.3em] uppercase text-secondary mb-4">Languages</h2>
-<div class="space-y-2">
-<div class="flex justify-between items-center max-w-[240px]">
-<span class="font-body text-sm text-on-surface">Italian</span>
-<span class="font-label text-xs text-primary font-bold">Native</span>
-</div>
-<div class="flex justify-between items-center max-w-[240px]">
-<span class="font-body text-sm text-on-surface">English</span>
-<span class="font-label text-xs text-primary font-bold">C1</span>
-</div>
-</div>
 </div>
 </div>
 </div>
@@ -154,8 +145,8 @@
 <span class="material-symbols-outlined text-primary text-3xl">hub</span>
 <span class="font-headline text-on-surface-variant/30 text-4xl font-bold">01</span>
 </div>
-<h3 class="font-headline text-xl font-bold text-on-surface">Analytical Architecture</h3>
-<p class="font-body text-sm text-on-surface-variant">Applying highly analytical problem-solving to improve workflows, achieving a 99% success rate in complex hardware/software diagnostic resolutions.</p>
+<h3 class="font-headline text-xl font-bold text-on-surface">Infrastructure as Code</h3>
+<p class="font-body text-sm text-on-surface-variant">Automating the lifecycle of complex systems through programmatic configuration and immutable architectures.</p>
 </div>
 <!-- DNA Card 2 -->
 <div class="bg-surface-container p-6 rounded-lg space-y-4 group hover:bg-surface-container-high transition-colors">
@@ -163,8 +154,8 @@
 <span class="material-symbols-outlined text-primary text-3xl">shield_lock</span>
 <span class="font-headline text-on-surface-variant/30 text-4xl font-bold">02</span>
 </div>
-<h3 class="font-headline text-xl font-bold text-on-surface">Precision Security</h3>
-<p class="font-body text-sm text-on-surface-variant">Designing resilient defense strategies by rapidly adapting to new threats. Currently advancing infrastructure security through CCNA certification paths.</p>
+<h3 class="font-headline text-xl font-bold text-on-surface">Cyber Resilience</h3>
+<p class="font-body text-sm text-on-surface-variant">Designing defense-in-depth strategies and hardening enterprise assets against evolving threat landscapes.</p>
 </div>
 <!-- DNA Card 3 -->
 <div class="bg-surface-container p-6 rounded-lg space-y-4 group hover:bg-surface-container-high transition-colors">
@@ -172,8 +163,8 @@
 <span class="material-symbols-outlined text-primary text-3xl">cloud_sync</span>
 <span class="font-headline text-on-surface-variant/30 text-4xl font-bold">03</span>
 </div>
-<h3 class="font-headline text-xl font-bold text-on-surface">System Integration</h3>
-<p class="font-body text-sm text-on-surface-variant">Orchestrating seamless device ecosystems (PC, smartphone, electronic) with a focus on optimizing operational efficiency and technical reliability.</p>
+<h3 class="font-headline text-xl font-bold text-on-surface">Hybrid Cloud</h3>
+<p class="font-body text-sm text-on-surface-variant">Orchestrating seamless data flow between legacy on-premise hardware and distributed cloud ecosystems.</p>
 </div>
 </div>
 </section>
@@ -190,8 +181,10 @@
 <div class="space-y-2">
 <span class="font-label text-[10px] tracking-widest text-primary uppercase">2021 — PRESENT</span>
 <h3 class="font-headline text-2xl font-bold">Euronics</h3>
-<p class="font-body text-sm text-on-surface-variant italic">IT Specialist</p>
-<p class="font-body text-sm text-on-surface-variant pt-2 leading-relaxed">Diagnosis and resolution of complex hardware and software issues for customers and staff with a 99% success rate. Configuration of PCs, smartphones, and various electronic devices. Smartphone repair (display and battery replacement). Management of assigned departments and work teams.</p>
+<p class="font-body text-sm text-on-surface-variant italic">IT Systems Engineer</p>
+<p class="font-body text-sm text-on-surface-variant pt-2 leading-relaxed">
+                            Managing enterprise-grade retail infrastructure and streamlining POS integration across regional clusters.
+                        </p>
 </div>
 </div>
 <!-- Labosport -->
@@ -200,8 +193,10 @@
 <div class="space-y-2">
 <span class="font-label text-[10px] tracking-widest text-on-surface-variant uppercase">2018 — 2021</span>
 <h3 class="font-headline text-2xl font-bold">Labosport</h3>
-<p class="font-body text-sm text-on-surface-variant italic">Quality Control Manager</p>
-<p class="font-body text-sm text-on-surface-variant pt-2 leading-relaxed">Quality control and homologation of synthetic turf football fields (including Serie A). Certification of athletics tracks according to IAAF standards. Laboratory testing on synthetic turf systems for FIFA and LND. Laboratory testing on surfaces for IAAF.</p>
+<p class="font-body text-sm text-on-surface-variant italic">Digital Infrastructure Lead</p>
+<p class="font-body text-sm text-on-surface-variant pt-2 leading-relaxed">
+                            Overseeing lab automation systems and high-precision data acquisition networks for international certification.
+                        </p>
 </div>
 </div>
 <!-- Sartoria Elena -->
@@ -210,10 +205,10 @@
 <div class="space-y-2">
 <span class="font-label text-[10px] tracking-widest text-on-surface-variant uppercase">2016 — 2018</span>
 <h3 class="font-headline text-2xl font-bold">Sartoria Elena</h3>
-<p class="font-body text-sm text-on-surface-variant italic">IT system &amp; web development lead</p>
+<p class="font-body text-sm text-on-surface-variant italic">Technical Consultant</p>
 <p class="font-body text-sm text-on-surface-variant pt-2 leading-relaxed">
-                        Modernizing legacy business processes with bespoke digital solutions and secure local networks.
-                    </p>
+                            Modernizing legacy business processes with bespoke digital solutions and secure local networks.
+                        </p>
 </div>
 </div>
 <!-- Radio Babboleo -->
@@ -222,8 +217,10 @@
 <div class="space-y-2">
 <span class="font-label text-[10px] tracking-widest text-on-surface-variant uppercase">2014 — 2016</span>
 <h3 class="font-headline text-2xl font-bold">Radio Babboleo</h3>
-<p class="font-body text-sm text-on-surface-variant italic">Broadcast Systems Tech &amp; Head of Music</p>
-<p class="font-body text-sm text-on-surface-variant pt-2 leading-relaxed">Maintenance of broadcast automation and real-time audio streaming infrastructure. Head of Music &amp; Music Programmer. Responsible for the station's music identity and scheduling, contributing to a growth of 23,000 daily listeners (GFK 2012 data).</p>
+<p class="font-body text-sm text-on-surface-variant italic">Broadcast Systems Tech</p>
+<p class="font-body text-sm text-on-surface-variant pt-2 leading-relaxed">
+                            Maintenance of broadcast automation and real-time audio streaming infrastructure.
+                        </p>
 </div>
 </div>
 </div>
@@ -235,8 +232,8 @@
 <a class="font-['Inter'] text-[12px] text-[#9acbff] opacity-40 uppercase tracking-[0.2em] hover:text-[#ffb77d] transition-colors underline-offset-4 hover:underline" href="https://www.linkedin.com/in/ettore-mortara/">LinkedIn</a>
 </div>
 <div class="text-[10px] text-on-surface-variant/40 tracking-[0.3em] font-medium uppercase text-center">
-            © 2024 ETTORE MORTARA // ENGINEERED PRECISION
-        </div>
+                © 2024 ETTORE MORTARA // ENGINEERED PRECISION
+            </div>
 </footer>
 </main>
 <!-- BottomNavBar -->
